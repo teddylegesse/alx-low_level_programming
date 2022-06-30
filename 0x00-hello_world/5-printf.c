@@ -2,10 +2,11 @@
 
 /**
  * main - print the size of various tyeps
+ * int - is return type
  * printf - with proper grammar, but the outcome is a piece of art
- * return: 0  if exited properiy, non-zero otherwise
+ * Return: 0  if exited properiy, non-zero otherwise
 */
-void main(void)
+int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
