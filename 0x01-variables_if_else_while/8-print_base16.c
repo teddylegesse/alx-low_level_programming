@@ -7,8 +7,8 @@ int main(void)
 {
 int ba;
 char ch;
-for (be = 48; be <= 57; be++)
-putchar(be);
+for (ba = 48; ba <= 57; ba++)
+putchar(ba);
 for (ch = 'a'; ch <= 'f'; ch++)
 putchar(ch);
 putchar(10);
