@@ -15,7 +15,7 @@ if (st > co)
 {
 putchar(co);
 putchar(st);
-if (co != 56 || n != 57)
+if (co != 56 || st != 57)
 {
 putchar(44);
 putchar(32);
