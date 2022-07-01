@@ -19,7 +19,7 @@ if (st > co && th > st)
 putchar(co);
 putchar(st);
 putchar(th);
-if (co != 56 || st != 57)
+if (co != 56 || st != 57 || th != 57)
 {
 putchar(44);
 putchar(32);
