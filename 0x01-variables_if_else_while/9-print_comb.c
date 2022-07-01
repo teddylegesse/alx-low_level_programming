@@ -6,7 +6,7 @@
 int main(void)
 {
 int co;
-for (co = 48; co >= 57; co++)
+for (co = 48; co <= 57; co++)
 {
 putchar(co);
 if (co != 57)
