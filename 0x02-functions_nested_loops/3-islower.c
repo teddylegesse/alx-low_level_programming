@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * c - checks if lowercase latter  in the string  function c
+ * _islower - checks if lowercase latter  in the string 'c' isparameter
+ * @c: is parameter
  * Return: 1 if c is lowercase
  */
 int _islower(int c)
