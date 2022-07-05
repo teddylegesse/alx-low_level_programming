@@ -10,6 +10,6 @@ int r;
 if (n < 0)
 n = -n;
 r = n % 10;
-_putchar(x + '0');
-return (x);
+_putchar(r + '0');
+return (r);
 }
