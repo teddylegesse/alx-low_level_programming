@@ -1,6 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/**
+ * positive_or_negative - is the function check negative or positive
+ * @main - check the function
+ * @i: is argument
+ * Return: 0
+ */
 void positive_or_negative(int i)
 {
 int n;
