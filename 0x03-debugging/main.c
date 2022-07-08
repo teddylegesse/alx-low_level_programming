@@ -1,11 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/**
+ * positive_or_negative - is the function check negative or positive
+ * @main - check the function
+ * @i: is argument
+ * Return: 0
+ */
 void positive_or_negative(int i)
 {
 int n;
 srand(time(0));
-n = rand() - RAND_MAX / 2;
+n = i;
 if (n > 0)
 {
 printf("%d is positive\n", n);
