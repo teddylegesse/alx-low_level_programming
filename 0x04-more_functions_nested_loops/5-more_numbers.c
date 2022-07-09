@@ -11,9 +11,13 @@ for (i = 0; i < 10; i++)
 for (x = 0; x < 15; x++)
 {
 if (x < 10)
+{
 _putchar(x + '0');
-else if (x > 10)
+}
+else
+{
 _putchr(x);
+}
 }
 _putchar ('\n');
 }
