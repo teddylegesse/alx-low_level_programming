@@ -12,8 +12,11 @@ _putchar('\n');
 else
 {
 for (y = 0; y < n; y++)
+{
+for (i = 0; i < y; i++)
 _putchar(' ');
 _putchar(92);
 _putchar('\n');
+}
 }
 }
