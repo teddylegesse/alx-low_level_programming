@@ -11,7 +11,7 @@ int x, y;
 y = 0;
 while (s[y] != '\0')
 y++;
-for ( x = y - 1; x >= 0; x++)
+for (x = y - 1; x >= 0; x++)
 {
 _putchar (s[x]);
 }
