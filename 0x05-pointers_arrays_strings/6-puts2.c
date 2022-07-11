@@ -1,6 +1,7 @@
 #include "main.h"
+#include <string.h>
 /**
- * puts2 - function that prints every other character of a string, starting 
+ * puts2 - function that prints every other character
  * @str: is parameter
  * Return: always 0;
  */
