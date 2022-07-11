@@ -11,11 +11,13 @@ int i, count;
 int length = 0;
 for (i = 0; s[i]; i++)
 {
-end_c++;
+length++;
 }
 count = length;
 start_c = s;
 end_c = s;
+for (i = 0; i < count - 1; i++)
+end_c++;
 for (i = 0; i < count / 2; i++)
 {
 c = *end_c;
