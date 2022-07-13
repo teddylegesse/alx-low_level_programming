@@ -14,7 +14,7 @@ length++;
 for (i = 0; src[i] != 0; i++)
 {
 dest[length] = src[i];
-length += i;
+length += 1;
 }
 dest[length] = '\0';
 return (dest);
