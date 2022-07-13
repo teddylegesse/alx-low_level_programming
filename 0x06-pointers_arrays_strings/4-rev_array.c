@@ -1,5 +1,6 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdio.hi>
+#include <string.h>
 /**
  * reverse_array - function that reverses the content of an array of integers.
  * @a: is parameter 1
