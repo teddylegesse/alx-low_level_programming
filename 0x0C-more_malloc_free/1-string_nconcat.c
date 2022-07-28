@@ -5,7 +5,7 @@
  * @s1: first string
  * @s2: second string
  * @n: size
- * Return: pointer shall point to a newly allocated space in memory, 
+ * Return: pointer shall point to a newly allocated space in memory,
  * which contains s1, followed by the first n bytes of s2, and null terminated
  * If the function fails, it should return NULL
  * If n is greater or equal to the length of s2 then use the entire string s2
