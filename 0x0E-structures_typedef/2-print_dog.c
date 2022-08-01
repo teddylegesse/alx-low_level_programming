@@ -1,8 +1,12 @@
 #include "dog.h"
+/**
+ * print_dog - function that prints a struct dog
+ * @d: is dog discription
+ */
 void print_dog(struct dog *d)
 {
-if (d == NULL )
-return; 
+if (d == NULL)
+return;
 if ((*d).name == NULL)
 printf("nil\n");
 else
