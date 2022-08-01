@@ -2,8 +2,8 @@
 #define DOG_H
 #include <stdio.h>
 #include <stdlib.h>
-/** 
- * dog - is a new data type
+/**
+ * struct dog - is a new data type
  * @name: is mambers of dog data type
  * @age: is mambers of dog data type
  * @owner: is mambers of dog data type
