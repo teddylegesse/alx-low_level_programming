@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * op_add - return the sum of two integer
+ * op_add - Returns the sum of two integer
  * @a: is first integer
  * @b: is second integer
  */
@@ -13,7 +13,7 @@ return (a + b);
 }
 
 /**
- * op_sub - return the the differance between two integers
+ * op_sub - Returns the the differance between two integers
  * @a: first integer
  * @b: second integer
  */
@@ -23,7 +23,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - return multiplication of two integer
+ * op_mul - Returns multiplication of two integer
  * @a: first integer
  * @b: second integer
  */
@@ -33,7 +33,7 @@ return (a * b);
 }
 
 /**
- * op_div - return the division of two integers
+ * op_div - Returns the division of two integers
  * @a: first integer
  * @b: second integer
  */
@@ -48,7 +48,7 @@ return (a / b);
 }
 
 /**
- * op_mod - return mod of two integers
+ * op_mod - Returns mod of two integers
  * @a: first integer
  * @b: second integer
  */
