@@ -1,6 +1,12 @@
 #include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
+/**
+ * main - Prints the result of operations.
+ * @argc: counts the numbers of argument in program
+ * @argv: the array of arguments in the program
+ * Return: 0 always
+ */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 int num1, num2;

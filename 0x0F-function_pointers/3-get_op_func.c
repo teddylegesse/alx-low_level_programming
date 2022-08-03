@@ -1,12 +1,11 @@
 #include "3-calc.h"
 #include <stdlib.h>
 /**
- *
- * get_op_func - function returns a pointer to the function that 
+ * get_op_func - function returns a pointer to the function that
  * corresponds to the operator given as a parameter.
  * @s: operator passed as argument
- * Return: If s does not match any of the 5 expected 
- * operators (+, -, *, /, %), return NULL
+ * Return: If s does not match any of the 5 expected
+ * operators (+, -, '*', /, %), return NULL
  */
 int (*get_op_func(char *s))(int, int)
 {
