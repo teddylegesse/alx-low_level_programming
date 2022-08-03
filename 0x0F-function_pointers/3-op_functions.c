@@ -4,6 +4,10 @@
 
 /**
  * op_add - Returns the sum of two integer
+ * op_sub - Returns the the differance between two integers
+ * op_mul - Returns multiplication of two integer
+ * op_div - Returns the division of two integers
+ * op_mod - Returns mod of two integers
  * @a: is first integer
  * @b: is second integer
  */
