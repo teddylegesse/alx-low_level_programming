@@ -12,7 +12,7 @@ va_list ab;
 unsigned int i;
 for (i = 0; i < n; i++)
 {
-printf("%d", va_arg(ab, int);
+printf("%d", va_arg(ab, int));
 if (i != n - 1 && separator != NULL)
 printf("%s", separator);
 }
