@@ -2,6 +2,7 @@
 /**
  * sum_them_all - function that returns the sum of all its parameters.
  * @n: numbers of argument passed to the function
+ * Return: sum of two integers else return 0
  */
 int sum_them_all(const unsigned int n, ...)
 {

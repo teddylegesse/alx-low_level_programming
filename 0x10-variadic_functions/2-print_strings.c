@@ -1,6 +1,7 @@
 #include "variadic_functions.h"
 /**
  * print_strings - unction that prints strings, followed by a new line.
+ * @separator: is pinter charactor
  * @n: numbers of argument passed to the function
  */
 void print_strings(const char *separator, const unsigned int n, ...)
@@ -16,7 +17,7 @@ if (ptr == NULL)
 printf("(nil)");
 else
 printf("%s", ptr);
-if (i != n-1 && separator != NULL)
+if (i != n - 1 && separator != NULL)
 printf("%s", separator);
 }
 printf("\n");
