@@ -5,13 +5,13 @@
  */
 void free_list(list_t *head)
 {
-	list_t *tmp;
+	list_t *ftmp;
 
 	while (head)
 	{
-		tmp = head->next;
+		ftmp = head->next;
 		free(head->str);
 		free(head);
-		head = tmp;
+		head = ftmp;
 	}
 }
