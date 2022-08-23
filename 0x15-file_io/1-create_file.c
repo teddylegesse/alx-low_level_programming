@@ -8,6 +8,13 @@
 int create_file(const char *filename, char *text_content)
 {
 	int _open, _write;
+	int count;
+
+	if (text_content != NULL)
+	{
+		for (count = 0; text_content[count];)
+			count++;
+	}
 
 	if (filename == NULL)
 		return (-1);
@@ -15,8 +22,7 @@ int create_file(const char *filename, char *text_content)
 	_open = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 	if (_open == -1)
 		return (-1);
-	_write = write(_open, text_content, strlen(text_content));
-
+	_write = write(_open, text_content, count);
 	if (_write == -1)
 		return (-1);
 	close(_open);
